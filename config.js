@@ -8,4 +8,4 @@ export const PRODUCTION = 'production';
 export const DEVELOPMENT = 'development';
 
 export const HEADER_AUTH_KEY = 'authorization';
-export const LOCAL_STORAGE_KEY = 'scrapSportsToken';
+export const LOCAL_STORAGE_KEY = 'Token';

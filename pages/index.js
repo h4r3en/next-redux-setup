@@ -1,12 +1,6 @@
-import PageContainer from "../components/Elements/Containers/PageContainer";
 import MainContainer from "../components/Elements/Containers/MainContainer";
-import Header from "../components/Elements/Header";
-import Footer from "../components/Elements/Footer";
 
 const Home = () => (
-  <PageContainer>
-    <Header />
-
     <MainContainer>
       <h1 className="title">
         Welcome to <a href="https://nextjs.org">Next.js!</a>
@@ -45,10 +39,7 @@ const Home = () => (
           </p>
         </a>
       </div>
-    </MainContainer>
-
-    <Footer />
-    <style jsx>{`
+      <style jsx>{`
       .container {
         min-height: 100vh;
         padding: 0 0.5rem;
@@ -160,7 +151,7 @@ const Home = () => (
         box-sizing: border-box;
       }
     `}</style>
-  </PageContainer>
+    </MainContainer>
 );
 
 export default Home;
